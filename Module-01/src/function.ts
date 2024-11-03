@@ -1,4 +1,4 @@
-// function=2
+//function=2
 //arrow funtion
 
 //normal function

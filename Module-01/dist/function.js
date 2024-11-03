@@ -1,5 +1,5 @@
 "use strict";
-// function=2
+//function=2
 //arrow funtion
 //normal function
 function addTwoNymber(number01, number02) {

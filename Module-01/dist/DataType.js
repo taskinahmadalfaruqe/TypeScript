@@ -24,4 +24,5 @@ tupleArray[0] = 100;
 tupleArray[1] = "Taskin";
 console.log(tupleArray);
 let tupleArray2 = [20, "mr-x"];
-console.log((tupleArray2 = [10, "Taskin"])); // Outputs: [20, "Taskin"]
+tupleArray2 = [10, "Taskin"];
+console.log(tupleArray2);

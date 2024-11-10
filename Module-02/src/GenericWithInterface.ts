@@ -21,8 +21,8 @@
   interface ProMobile {
     Name: string;
     Modle: string;
-Ram:string;
-Room:string;
+    Ram: string;
+    Room: string;
   }
   const proDeveloper: developer<ProMobile> = {
     Computer: "Apple MackBook",
@@ -30,8 +30,8 @@ Room:string;
     mobile: {
       Name: "Iphone",
       Modle: "15 Pro Max",
-Ram: "8GB",
-Room:"256 GB"
+      Ram: "8GB",
+      Room: "256 GB",
     },
   };
   // Block Scoped

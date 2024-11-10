@@ -6,12 +6,6 @@
     Samsung: string;
   };
 
-  const mobileData: mobile = {
-    Oneplus: "9R",
-    Apple: "15",
-    Samsung: "S24",
-  };
-
   type Data = <T>(mobile:T) => {
     const newMobile ="HELLO";
     return{
@@ -21,6 +15,12 @@
   };
   const data:Data = (mobileData) => {
     return mobileData;
+  };
+
+  const mobileData: mobile = {
+    Oneplus: "9R",
+    Apple: "15",
+    Samsung: "S24",
   };
   // Block Scoped
 }

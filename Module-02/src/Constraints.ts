@@ -12,7 +12,13 @@
     Samsung: "S24",
   };
 
-  type Data = () => string;
+  type Data = <T>(mobile:T) => {
+    const newMobile ="HELLO";
+    return{
+      ...mobileData,
+      newMobile
+    };
+  };
   const data:Data = (mobileData) => {
     return mobileData;
   };

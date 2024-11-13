@@ -1,10 +1,15 @@
 {
   //Scoping
 
-  const getasyncData=(promise,resolve)=>{
-    return new Promise{
-      
-    }
-  }
+  const getasyncData = () => {
+    return new Promise((resolve, reject) => {
+      const data: string = "Taskin";
+      if (data) {
+        resolve(data);
+      } else {
+        reject("No Data Found");
+      }
+    });
+  };
   //Scoping
 }

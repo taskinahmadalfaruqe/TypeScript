@@ -11,9 +11,9 @@
 
   const getAsyncData = (): Promise<string> => {
     return new Promise<string>((resolve, reject) => {
-      const data: string = "Taskin";
-      if (data) {
-        resolve(data);
+      const stringData: string = "Taskin";
+      if (stringData) {
+        resolve(stringData);
       } else {
         reject("No Data Found");
       }

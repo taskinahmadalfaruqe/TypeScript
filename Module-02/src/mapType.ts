@@ -1,0 +1,5 @@
+{
+  // Blocked Scope
+  
+  // Blocked Scope
+}

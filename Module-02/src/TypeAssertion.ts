@@ -4,7 +4,9 @@
 
   // Type Assertion
   let anything: any;
-  anything = "Next level Development";
+let something:any;
+  anything = "Next level Development"
+something = "Next level Development";
   (anything as string).split(" ");
   console.log(anything);
   // Block Scoping

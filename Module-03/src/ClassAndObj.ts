@@ -1,0 +1,4 @@
+{
+    //block scoping
+    //block scoping
+}

@@ -1,3 +1,7 @@
+type Person{
+Name: string,
+mobile: string,
+}
   class Person {
     getSleep() {
       console.log("i am sleeping 8 hours");

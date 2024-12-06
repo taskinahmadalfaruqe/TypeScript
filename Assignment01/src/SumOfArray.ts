@@ -1,0 +1,5 @@
+{
+  // Block Scoping.
+  
+  // Block Scoping.
+}

@@ -34,7 +34,7 @@
   // Sample Input 2
   const rectangleArea = calculateShapeArea({
     shape: "rectangle",
-    width: 4,
+    width: 10,
     height: 6,
   });
   console.log(rectangleArea);

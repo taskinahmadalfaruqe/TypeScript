@@ -17,9 +17,9 @@
     }
   }
 
-  // Sample Input 1:
+  
   const car = new Car("Honda", "Civic", 2018);
-  console.log(car.getCarAge()); // Sample Output 1: 6 (assuming current year is 2024)
+  console.log(car.getCarAge()); 
 
   // Block Scope
 }

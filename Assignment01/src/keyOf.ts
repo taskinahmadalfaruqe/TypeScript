@@ -6,8 +6,7 @@
 
   // Sample Input
   const person = { name: "Alice", age: 25, email: "alice@example.com" };
-  console.log(validateKeys(person, ["name", "age"])); // Output: true
-  console.log(validateKeys(person, ["name", "gender"])); // Output: false
+  console.log(validateKeys(person, ["name", "age"])); 
 
   // Block Scoping
 }

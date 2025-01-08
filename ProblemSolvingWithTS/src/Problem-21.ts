@@ -1,6 +1,5 @@
 {
   // Block Scoping
-  // A generic class to validate keys in an object
   class ObjectValidator<T> {
     private obj: T;
 
@@ -10,7 +9,10 @@
 
     // Method to validate if the given keys exist in the object
     validateKeys(keys: (keyof T)[]): boolean {
-      return keys.every((key) => key in this.obj);
+      // Use 'hasOwnProperty' to ensure we are checking properties on the object itself
+      return keys.every((key) =>
+        Object.prototype.hasOwnProperty.call(this.obj, key)
+      );
     }
   }
 

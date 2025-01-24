@@ -21,7 +21,7 @@
     }
   }
   const GoribManusErAccount = new BankAccount(
-    "TRaskin Ahmad Al Faruqe",
+    "Taskin Ahmad Al Faruqe",
     242910701126,
     20
   );

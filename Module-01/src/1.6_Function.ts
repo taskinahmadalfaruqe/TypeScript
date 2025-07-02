@@ -8,3 +8,12 @@ addNumber(1, 2)
 
 const AddNumberA = (num01: number, num02: number) => num01 + num02;
 console.log(AddNumberA(2, 3));
+
+// object with function
+const bankAccount = {
+    name: "Taskin",
+    balance: 10,
+    addBalance(NewBalance: number) {
+        return this.balance + NewBalance;
+    }
+}

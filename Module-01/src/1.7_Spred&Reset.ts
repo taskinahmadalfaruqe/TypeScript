@@ -1,9 +1,11 @@
 {
     // Block Scoping
     // spread operator
-    const userData={
-        name: "Taskin Ahmad Al Faruqe",
-        account: 10000,
-        
-    }
+    const userData: string[] = [
+        "Taskin",
+        "Ahmad",
+        "Al",
+        "Faruqe",
+        "humaira"
+    ];
 }

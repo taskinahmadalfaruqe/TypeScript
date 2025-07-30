@@ -11,7 +11,7 @@
         },
         email: "taskinahmadalfaruqe@gmail.com",
     };
-    // contact alays with phoneNumber now we can called by PhoneNumber
+    // contact type alias with phoneNumber now we can called by PhoneNumber
     const { contact: PhoneNumber, name: { middleName: midName }, } = userData;
     console.log(PhoneNumber);
     console.log(midName);
